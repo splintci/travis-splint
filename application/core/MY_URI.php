@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 if (!defined('BASEPATH')) exit('No direct script access allowed');
-class MY_Uri extends CI_URI {
+class MY_URI extends CI_URI {
 	
 	public $appsegments = array();
 	public $apprsegments = array();
